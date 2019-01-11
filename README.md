@@ -128,9 +128,9 @@ It is also possible to convert event history file to sparklens json file using t
 #### 4. Checkout the code and use the normal sbt commands: #### 
 
 ```
+sbt clean
 sbt compile 
-sbt package 
-sbt clean 
+sbt package  
 ```
 You will find the Sparklens jar in target/scala-2.11 directory. Make sure scala and java version correspond to those required by your spark cluster. We have tested it with java 7/8, 
 scala 2.11.8 and spark versions 2.0.0 onwards. 
